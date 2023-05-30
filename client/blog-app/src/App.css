@@ -1,0 +1,143 @@
+*{
+  box-sizing: border-box;
+}
+
+
+
+.nav{
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  /* padding-bottom: 3rem; */
+  /* background-color: yellow; */
+  background-color: rgb(172, 172, 172);
+  margin-bottom: 30px;
+}
+.nav>ul{
+  padding-right: 10%;
+  gap: 2rem;
+  align-items: center;
+}
+.logo{
+  padding-left: 10%;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.post{
+  display: flex;
+  width: 90%;
+  overflow: scroll;
+  border: 0.2px solid #808080;
+  margin: 15px auto;
+  max-height: 70vh;
+  text-align: center;
+  border-radius: 10px;
+  /* background-image: url("https://images.unsplash.com/photo-1530176928500-2372a88e00b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHdoaXRlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"); */
+  background-size: cover;
+  background-color: rgb(225, 225, 225);
+}
+
+.postimg{
+  display: flex;
+  justify-content: center;
+  width: 45%;
+  min-height: 50%;
+  text-align: center;
+}
+.postimg > img{
+  width:90%;
+  max-height: 80%;
+  align-self: center;
+  margin: 10px;
+  margin-left: 10px;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+
+.content{
+  width: 90%;
+  margin: 10px auto;
+  margin-right: 15px;
+  /* margin-left: 40px; */
+  text-align: left;
+  font-weight: bold;
+}
+.posts{
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+}
+
+
+.login ,.register{
+  max-width: 50%;
+  margin: 40px auto;
+  background-color: rgb(225, 225, 225);
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+input{
+  display: block;
+  margin: 10px auto;
+  width: 90%;
+  padding: 10px;
+  background-color: #ffff;
+  text-align: center;
+  border-radius: 5px;
+  border: 0px;
+  font: bolder;
+}
+select{
+  width: 30%;
+  height: 35px;
+  font: bolder;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  /* font-size: 20px; */
+}
+
+input > font{
+  color: black;
+}
+
+button{
+  width: 45%;
+  margin: 20px auto;
+  height: 30px;
+  background-color: #ffff;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.category{
+  max-width: 80%;
+  gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px auto;
+  font-weight: bold;
+  color: black;
+  background-color: rgb(225, 225, 225);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 0.1px solid;
+  border-radius: 5px;
+}
+
+.newpost{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(225, 225, 225);
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
